@@ -16,6 +16,9 @@ body{
 .list{
   list-style-type: none;
 }
+.link{
+text-decoration: none;
+}
 
 .logo{
     font-family: 'Raleway', sans-serif;
@@ -24,7 +27,7 @@ body{
     line-height: 1.17;
     text-transform: uppercase;
     color: var(--logo-color);
-    text-decoration: none; 
+   
 }
 .accent-logo{
     color: var(--menu-normal-color);
@@ -77,21 +80,14 @@ body{
   font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
- /*   text-align: center;
-    /*color: #FFFFFF;  */
 }
 
 .hero-button{
   background: #4D5AE5;
-/*  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;   */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #FFFFFF;
-/*  align-items: center;  
-  width: 169px;
-  height: 56px; */
   cursor: pointer;
 }    
    
@@ -106,9 +102,6 @@ body{
 .properties h2{
   visibility: hidden;
 }   
-.properties ul{
-  list-style-type: none;
-}
 
 .topic{
   font-weight: 500;
@@ -133,9 +126,6 @@ body{
   text-transform: capitalize;
   color: var(--menu-normal-color);
 }
-/*.doing ul{
-  list-style-type: none;
-}  */
 
 .team{
   background-color: var(--team-background);
