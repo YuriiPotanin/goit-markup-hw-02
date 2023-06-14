@@ -27,6 +27,7 @@ text-decoration: none;
     line-height: 1.17;
     text-transform: uppercase;
     color: var(--logo-color);
+    letter-spacing: 0.03em;
    
 }
 .accent-logo{
@@ -44,7 +45,7 @@ text-decoration: none;
   line-height: 1.5;
   color: var(--menu-normal-color);
   text-decoration: none;
- 
+  letter-spacing: 0.02em;
 }
 
 .menu-list .menu-item:focus,
@@ -80,6 +81,8 @@ text-decoration: none;
   font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .hero-button{
@@ -99,7 +102,7 @@ text-decoration: none;
 
 }
     
-.properties h2{
+.hidden-title{
   visibility: hidden;
 }   
 
@@ -125,14 +128,18 @@ text-decoration: none;
   text-align: center;
   text-transform: capitalize;
   color: var(--menu-normal-color);
+  letter-spacing: 0.02em
 }
 
 .team{
   background-color: var(--team-background);
 }
 
-footer{
+.footer{
   background-color: var(--hero-background-color);
+}
+.footer-accent-logo {
+  color: var(--team-background);
 }
 
 .footer-text{
@@ -149,8 +156,9 @@ footer{
   font-size: 18px;
   line-height: 1.17;
   text-transform: uppercase;
-  color: #F4F4FD;
+  color: var(--logo-color);
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 
 .section-button{
