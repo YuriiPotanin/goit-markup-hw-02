@@ -5,6 +5,7 @@
   --hero-color: #FFFFFF;
   --team-background: #F4F4FD;
   --logo-color: #4d5ae5;
+  --project-color: #434455;
 }
 body{
     background-color: #FFFFFF;
@@ -92,6 +93,7 @@ text-decoration: none;
   line-height: 1.5;
   color: #FFFFFF;
   cursor: pointer;
+  letter-spacing: 0.04em;
 }    
    
 .hero button:hover,
@@ -110,16 +112,25 @@ text-decoration: none;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--hero-background-color);
 }
 .topic-text{
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
+  letter-spacing: 0.02em;
  
 }
 
 .doing{
-
+/*  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--hero-background-color);
+*/
 }
 .section-title{
   font-weight: 700;
@@ -128,7 +139,7 @@ text-decoration: none;
   text-align: center;
   text-transform: capitalize;
   color: var(--menu-normal-color);
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 
 .team{
@@ -146,6 +157,7 @@ text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
   color: #F4F4FD;
+  letter-spacing: 0.02em;
  
 }
 .footer-logo{
@@ -193,10 +205,12 @@ text-decoration: none;
 .project-h3{
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-  color: #2E2F42;
+  line-height: 1.2;
+  color: var(--menu-normal-color);
+  letter-spacing: 0.02em
 }
 .project-p{
   line-height: 1.5;
-  color: #434455;
+  color: var(--project-color);
+  letter-spacing: 0.02em
 }
