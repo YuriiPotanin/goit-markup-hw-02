@@ -58,15 +58,16 @@ text-decoration: none;
   list-style-type: none;
   font-style: normal;
 }
-.adress .adress-item{
+.adress-item{
   font-size: 16px;
   line-height: 1.5;
-  color: var(--menu-normal-color);
+  color: var(--project-color);
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
 
-.adress .adress-item:focus,
-.adress .adress-item:hover{
+.adress-item:focus,
+.adress-item:hover{
   font-size: 16px;
   line-height: 1.5;
   color: var(--menu-active-color);
