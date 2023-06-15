@@ -153,7 +153,7 @@ text-decoration: none;
 }
 
 .footer{
-  background-color: #F4F4FD;
+  background-color: var(--hero-background-color);
 }
 .footer-accent-logo {
   color: #f4f4fd;
