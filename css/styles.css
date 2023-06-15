@@ -151,7 +151,7 @@ text-decoration: none;
   background-color: var(--hero-background-color);
 }
 .footer-accent-logo {
-  color: var(--team-background);
+  color: #f4f4fd;
 }
 
 .footer-text{
