@@ -6,6 +6,7 @@
   --team-background: #FFFFFF;
   --logo-color: #4d5ae5;
   --project-color: #434455;
+  --button-bg-color: #F4F4FD;
 }
 body{
     background-color: #FFFFFF;
@@ -145,10 +146,14 @@ text-decoration: none;
 
 .team{
   background-color: var(--team-background);
+  background-color: #F4F4FD;
+}
+.team-item{
+  background-color: #FFFFFF;
 }
 
 .footer{
-  background-color: var(--hero-background-color);
+  background-color: #F4F4FD;
 }
 .footer-accent-logo {
   color: #f4f4fd;
@@ -182,7 +187,7 @@ text-decoration: none;
 }
 
 .button-list-item {
-  background: var(--team-background);
+  background: var(--button-bg-color);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -208,7 +213,7 @@ text-decoration: none;
   font-size: 20px;
   line-height: 1.2;
   color: var(--menu-normal-color);
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 .project-p{
   line-height: 1.5;
