@@ -209,7 +209,7 @@ text-decoration: none;
 .project-list{
   list-style: none;
 }
-.project-h3{
+.project-title{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
